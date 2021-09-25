@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.quizapp.splashActivity"
+        <activity android:name=".User_View_Materials"></activity>
+        <activity android:name=".Admin_View_Materials" />
+        <activity android:name=".Admin_Add_Materials_Content" />
+        <activity android:name=".Admin_Add_Materials" />
+        <activity
+            android:name=".splashActivity"
             android:theme="@style/NoActionBarTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,9 +34,7 @@
             android:name=".MainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/NoActionBarTheme"
-            android:windowSoftInputMode="adjustResize">
-
-        </activity>
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>
