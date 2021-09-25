@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".User_View_Materials"></activity>
+        <activity android:name=".QBuds_Categories"></activity>
+        <activity android:name=".User_View_Materials" />
         <activity android:name=".Admin_View_Materials" />
         <activity android:name=".Admin_Add_Materials_Content" />
         <activity android:name=".Admin_Add_Materials" />
