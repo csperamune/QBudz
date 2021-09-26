@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">QBudz</string>
+    <string name="buddhist">Buddhist</string>
+    <string name="history">History</string>
+    <string name="art">Art</string>
+    <string name="science">Science</string>
+    <string name="sinhala">Sinhala</string>
+    <string name="sinhala">Sinhala</string>
+    <string name="english">English</string>
+    <string name="topic">Topic</string>
+    <string name="choose_subject">Subject</string>
+    <string name="material">Material</string>
+    <string name="browse">Browse</string>
+    <string name="add">Add</string>
+
 </resources>
