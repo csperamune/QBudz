@@ -1,5 +1,5 @@
 # Quiz-App-
-My first android app build with kotlin. It's a quiz app with decent UI and intents.
+This is SLIIT's 4th year 2nd semester MADD final project.
 # Screenshots
 
 
