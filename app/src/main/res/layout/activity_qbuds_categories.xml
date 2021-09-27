@@ -3,7 +3,102 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/background"
     android:layout_height="match_parent"
-    tools:context=".QBuds_Categories">
+    tools:context=".Admin_Panel">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="416dp"
+        android:layout_height="62dp"
+        android:background="#F2DC4E01"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Categories"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="28dp"
+        android:background="@drawable/square"
+        android:text="Show Question"
+        android:textAlignment="center"
+        android:textColor="#353333"
+        android:textStyle="normal"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/square"
+        android:text="Show User"
+        android:textAlignment="center"
+        android:textColor="#353333"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/square"
+        android:hapticFeedbackEnabled="false"
+        android:text="Add New Question"
+        android:textAlignment="center"
+        android:textColor="#353333"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/square"
+        android:text="Materials"
+        android:textAlignment="center"
+        android:textColor="#353333"
+        android:textStyle="normal"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        tools:layout_editor_absoluteX="73dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="44dp"
+
+        android:background="@drawable/square"
+        android:text="Show Feedback"
+        android:textAlignment="center"
+        android:textColor="#353333"
+        android:textStyle="normal"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        tools:layout_editor_absoluteX="222dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
