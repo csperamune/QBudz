@@ -11,5 +11,7 @@
     <string name="material">Material</string>
     <string name="browse">Browse</string>
     <string name="add">Add</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_cancel">Cancel</string>
 
 </resources>
