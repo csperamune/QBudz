@@ -94,8 +94,8 @@
 
                 <TextView
                     android:id="@+id/textView13"
-                    android:layout_width="286dp"
-                    android:layout_height="270dp"
+                    android:layout_width="285dp"
+                    android:layout_height="136dp"
                     android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip"
                     tools:layout_editor_absoluteX="6dp"
                     tools:layout_editor_absoluteY="83dp" />
