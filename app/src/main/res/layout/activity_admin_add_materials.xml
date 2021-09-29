@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/background"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".Admin_Panel">
 
     <TextView
@@ -22,124 +22,102 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/btn_add_question"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="36dp"
-        android:background="#F2DC4E01"
-        android:fontFamily="serif"
-        android:padding="3dp"
-        android:text="@string/buddhist"
-        android:textAllCaps="false"
-        android:textColor="@color/cardview_light_background"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
-        android:id="@+id/btn_show_question"
+        android:id="@+id/button16"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/buddhist"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
         android:layout_marginTop="32dp"
-        android:background="#F2DC4E01"
-        android:fontFamily="serif"
-        android:padding="3dp"
+        android:background="@color/colorPrimary"
         android:text="@string/history"
-        android:textAllCaps="false"
-        android:textColor="@color/cardview_light_background"
-        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_add_question" />
+        app:layout_constraintTop_toBottomOf="@+id/button16" />
+
+    //////////////////////
 
     <Button
-        android:id="@+id/btn_show_users"
         android:layout_width="300dp"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
         android:layout_marginTop="32dp"
-        android:background="#F2DC4E01"
-        android:fontFamily="serif"
-        android:padding="3dp"
-        android:text="@string/art"
-        android:textAllCaps="false"
-        android:textColor="@color/cardview_light_background"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_show_question" />
-
-    <Button
-        android:id="@+id/btn_show_feedback"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="32dp"
-        android:background="#F2DC4E01"
-        android:fontFamily="serif"
-        android:padding="3dp"
-        android:text="@string/science"
-        android:textAllCaps="false"
-        android:textColor="@color/cardview_light_background"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_show_users" />
-
-    <Button
-        android:id="@+id/btn_add_material"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="32dp"
-        android:background="#F2DC4E01"
-        android:fontFamily="serif"
-        android:padding="3dp"
-        android:text="@string/sinhala"
-        android:textAllCaps="false"
-        android:textColor="@color/cardview_light_background"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_show_feedback" />
-
-    <Button
-        android:id="@+id/btn_show_material"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="32dp"
-        android:background="#F2DC4E01"
-        android:fontFamily="serif"
-        android:padding="3dp"
-        android:text="@string/sinhala"
-        android:textAllCaps="false"
-        android:textColor="@color/cardview_light_background"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_add_material" />
-
-    <Button
-        android:id="@+id/btn_show_material2"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="32dp"
-        android:background="#F2DC4E01"
-        android:fontFamily="serif"
-        android:padding="3dp"
+        android:background="@color/colorPrimary"
         android:text="@string/english"
-        android:textAllCaps="false"
-        android:textColor="@color/cardview_light_background"
-        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_show_material" />
+        app:layout_constraintTop_toBottomOf="@+id/button12" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/sinhala"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button13" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/science"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button14" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/art"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button15" />
 
     <TextView
         android:id="@+id/textView2"

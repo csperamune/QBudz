@@ -32,16 +32,16 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/id_btn_browse"
-        android:layout_width="107dp"
-        android:layout_height="51dp"
-        android:layout_marginEnd="144dp"
-        android:background="#F2DC4E01"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimary"
         android:text="@string/browse"
-        app:layout_constraintBottom_toBottomOf="@+id/textView7"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView7"
-        app:layout_constraintVertical_bias="0.392" />
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="299dp" />
 
     <EditText
         android:id="@+id/Tp_name"
@@ -90,36 +90,28 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/upload"
         android:layout_width="300dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="136dp"
-        android:background="#F2DC4E01"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimary"
         android:text="@string/btn_cancel"
+        android:textColor="@android:color/white"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/add_notification"
-        app:layout_constraintVertical_bias="0.358" />
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="507dp" />
 
     <Button
-        android:id="@+id/upload2"
         android:layout_width="300dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="226dp"
-        android:background="#F2DC4E01"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimary"
         android:text="@string/btn_update"
+        android:textColor="@android:color/white"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/add_notification"
-        app:layout_constraintVertical_bias="0.358" />
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="422dp" />
 
     <androidx.constraintlayout.widget.Barrier
         android:id="@+id/barrier"
