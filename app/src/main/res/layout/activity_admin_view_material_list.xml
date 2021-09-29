@@ -51,7 +51,6 @@
         android:layout_height="132dp"
         android:layout_marginStart="8dp"
         android:layout_marginBottom="8dp"
-        android:background="@drawable/board1"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -60,127 +59,98 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"/>
 
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="385dp"
-        android:layout_height="195dp"
-        android:layout_margin="8dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.615"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/linearLayout8"
-        app:layout_constraintVertical_bias="0.304">
+        <androidx.cardview.widget.CardView
+            android:layout_width="374dp"
+            android:layout_height="204dp"
+            android:background="#FFF"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="7dp"
+            tools:layout_editor_absoluteX="18dp"
+            tools:layout_editor_absoluteY="154dp">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/run"
-            android:layout_width="340dp"
-            android:layout_height="174dp"
-            android:layout_gravity="center"
-            android:layout_marginLeft="25dp"
-            android:layout_marginRight="25dp"
-            android:clickable="true"
-            android:foreground="?android:attr/selectableItemBackground"
-            app:cardCornerRadius="10dp">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="334dp"
+                android:layout_height="174dp"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground" >
 
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="340dp"
-                android:layout_height="29dp"
-                android:text="Structure and Functions"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                <TextView
+                    android:layout_width="329dp"
+                    android:layout_height="83dp"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="61dp" />
 
-            <TextView
-                android:id="@+id/textView13"
-                android:layout_width="342dp"
-                android:layout_height="85dp"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip"
-                tools:layout_editor_absoluteX="-1dp"
-                tools:layout_editor_absoluteY="63dp" />
+                <TextView
+                    android:layout_width="330dp"
+                    android:layout_height="24dp"
+                    android:text="Science 01"
+                    android:textSize="14sp"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="30dp" />
 
-            <TextView
-                android:id="@+id/textView11"
-                android:layout_width="340dp"
-                android:layout_height="27dp"
-                android:text="Science"
-                android:textSize="14sp"
-                tools:layout_editor_absoluteY="30dp" />
+                <TextView
+                    android:layout_width="328dp"
+                    android:layout_height="29dp"
+                    android:text="Structure and Functions"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="-1dp"
+                    tools:layout_editor_absoluteY="1dp" />
 
-            <TextView
-                android:id="@+id/textView14"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="View More"
-                android:textColor="#DE3400"
-                tools:layout_editor_absoluteX="137dp"
-                tools:layout_editor_absoluteY="148dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View More"
+                    android:textColor="#DE3400"
+                    tools:layout_editor_absoluteX="134dp"
+                    tools:layout_editor_absoluteY="144dp" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.cardview.widget.CardView
+            android:layout_width="374dp"
+            android:layout_height="204dp"
+            android:background="#FFF"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="7dp"
+            tools:layout_editor_absoluteX="18dp"
+            tools:layout_editor_absoluteY="386dp"/>
 
-    </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="385dp"
-        android:layout_height="195dp"
-        android:layout_margin="8dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.625"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/linearLayout8"
-        app:layout_constraintVertical_bias="0.727">
+    <TextView
+        android:layout_width="329dp"
+        android:layout_height="83dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="61dp" />
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/run"
-            android:layout_width="340dp"
-            android:layout_height="174dp"
-            android:layout_gravity="center"
-            android:layout_marginLeft="25dp"
-            android:layout_marginRight="25dp"
-            android:clickable="true"
-            android:foreground="?android:attr/selectableItemBackground"
-            app:cardCornerRadius="10dp">
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="24dp"
+        android:text="Science 02"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="30dp" />
 
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="340dp"
-                android:layout_height="29dp"
-                android:text="Structure and Functions"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+    <TextView
+        android:layout_width="328dp"
+        android:layout_height="29dp"
+        android:text="Structure and Functions"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="1dp" />
 
-            <TextView
-                android:id="@+id/textView13"
-                android:layout_width="342dp"
-                android:layout_height="85dp"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip"
-                tools:layout_editor_absoluteX="-1dp"
-                tools:layout_editor_absoluteY="63dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View More"
+        android:textColor="#DE3400"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="144dp" />
 
-            <TextView
-                android:id="@+id/textView11"
-                android:layout_width="340dp"
-                android:layout_height="27dp"
-                android:text="Science"
-                android:textSize="14sp"
-                tools:layout_editor_absoluteY="30dp" />
-
-            <TextView
-                android:id="@+id/textView14"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="View More"
-                android:textColor="#DE3400"
-                tools:layout_editor_absoluteX="137dp"
-                tools:layout_editor_absoluteY="148dp" />
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
