@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "635897084733",
+    "project_id": "qbudz-bbcf2",
+    "storage_bucket": "qbudz-bbcf2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635897084733:android:1e42213709fea52d4a2354",
+        "android_client_info": {
+          "package_name": "com.example.quizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635897084733-kf6s34d9l1bk1dppfv69p2td9ag59fvp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQp_9lNaW4MJ1ybaY2PtlpSkcvpS1BG7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635897084733-kf6s34d9l1bk1dppfv69p2td9ag59fvp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

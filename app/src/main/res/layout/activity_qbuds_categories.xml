@@ -7,31 +7,15 @@
     tools:context=".QBuds_Categories">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="416dp"
-        android:layout_height="62dp"
-        android:background="#F2DC4E01"
-        android:fontFamily="casual"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
         android:text="Categories"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        tools:layout_editor_absoluteY="90dp" />
 
     <Button
         android:id="@+id/button6"
@@ -50,7 +34,7 @@
 
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/btn_add_materials"
         android:layout_width="122dp"
         android:layout_height="124dp"
         android:background="@android:color/white"
@@ -88,19 +72,10 @@
         android:textColor="@color/colorPrimary"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/button10"
         app:layout_constraintEnd_toStartOf="@+id/button9"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button7" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="16dp">
-
-    </LinearLayout>
 
     <Button
         android:id="@+id/button7"

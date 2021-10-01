@@ -15,4 +15,13 @@
     <string name="btn_cancel">Cancel</string>
     <string name="btn_delete">Delete</string>
 
+    <array name="subjects">
+        <item>Select Subject</item>
+        <item>Sinhala</item>
+        <item>Buddhist</item>
+        <item>Art</item>
+        <item>Science</item>
+        <item>English</item>
+        <item>Maths</item>
+    </array>
 </resources>
