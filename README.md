@@ -1,15 +1,3 @@
-# Quiz-App-
+# Quiz-App-"QBudz"
 This is SLIIT's 4th year 2nd semester MADD final project.
-# Screenshots
-
-
-## Opening UI
-<img src="1.jpeg"/>
-
-
-## Question page UI
-<img src="2.jpeg"/>
-
-
-## Ending Activity UI
-<img src="3.jpeg"/>
+The educational application "QBudz" allows users to access educational content in order to study. The QBudz's main goal is to provide students with information about their educational subjects. In addition, QBudz offers questions for each and every subject, allowing users to test their knowledge all in one place.
