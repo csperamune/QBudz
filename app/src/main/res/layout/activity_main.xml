@@ -42,19 +42,14 @@
                 android:textColor="#7A8089"
                 android:textSize="16sp" />
 
-            <com.google.android.material.textfield.TextInputLayout
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            <Button
+                android:id="@+id/button1"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <AutoCompleteTextView
-                    android:id="@+id/autoCompleteTextView2"
-                    android:layout_width="329dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="Subject" />
-
-            </com.google.android.material.textfield.TextInputLayout>
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:text="Select Subjec" />
 
             <Button
                android:id="@+id/btn_start"
