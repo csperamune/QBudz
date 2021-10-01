@@ -13,5 +13,6 @@
     <string name="add">Add</string>
     <string name="btn_update">Update</string>
     <string name="btn_cancel">Cancel</string>
+    <string name="btn_delete">Delete</string>
 
 </resources>
