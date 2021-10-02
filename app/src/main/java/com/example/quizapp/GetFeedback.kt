@@ -13,7 +13,7 @@ class GetFeedback  : AppCompatActivity() {
         setContentView(R.layout.activity_getfeedback)
 
         btn_display.setOnClickListener{
-            val intent = Intent(this@GetFeedback,DisplayFeedMessage::class.java)
+            val intent = Intent(this@GetFeedback,FeedbackDisplayMessage::class.java)
             startActivity(intent)
         }
 

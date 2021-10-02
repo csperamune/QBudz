@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DisplayFeedMessage"></activity>
+        <activity android:name=".FeedbackDisplayMessage"></activity>
         <activity android:name=".ViewFeedback" />
         <activity android:name=".Home_Screen" />
         <activity android:name=".Admin_Create_Question" />
