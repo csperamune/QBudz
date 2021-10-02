@@ -27,7 +27,6 @@ class Home_Screen : AppCompatActivity() {
         NavigationItemModel(R.drawable.ic_home, "Home"),
         NavigationItemModel(R.drawable.help, "Feedback"),
         NavigationItemModel(R.drawable.user, "Profile"),
-        NavigationItemModel(R.drawable.settings, "Settings"),
     )
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

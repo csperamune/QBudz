@@ -22,6 +22,7 @@
         <activity android:name=".Admin_View_Materials" />
         <activity android:name=".Admin_Add_Materials_Content" />
         <activity android:name=".Admin_Add_Materials" />
+
         <activity
             android:name=".splashActivity">
             <intent-filter>
