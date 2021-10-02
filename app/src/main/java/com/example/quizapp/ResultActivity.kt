@@ -4,7 +4,9 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import kotlinx.android.synthetic.main.activity_getfeedback.*
 import kotlinx.android.synthetic.main.activity_result.*
+
 
 class ResultActivity : AppCompatActivity() {
 
@@ -20,6 +22,11 @@ class ResultActivity : AppCompatActivity() {
         btn_finish.setOnClickListener{
             startActivity(Intent(this, MainActivity::class.java))
             finish()
+        }
+
+        btn_feedback.setOnClickListener{
+            val intent = Intent(this@ResultActivity,GetFeedback::class.java)
+            startActivity(intent)
         }
 
 
