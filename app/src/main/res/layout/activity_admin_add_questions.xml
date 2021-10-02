@@ -22,7 +22,7 @@
 
 
     <Button
-        android:id="@+id/button16"
+        android:id="@+id/btn_add_buddhist_q"
         android:layout_width="300dp"
         android:layout_height="48dp"
         android:layout_margin="20dp"
@@ -50,7 +50,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button16" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_add_buddhist_q" />
 
     //////////////////////
 
@@ -126,7 +126,7 @@
         android:text="Add Questions"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/button16"
+        app:layout_constraintBottom_toTopOf="@+id/btn_add_buddhist_q"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.312"
         app:layout_constraintStart_toStartOf="parent"

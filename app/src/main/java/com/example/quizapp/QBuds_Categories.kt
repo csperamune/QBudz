@@ -14,5 +14,15 @@ class QBuds_Categories : AppCompatActivity() {
             val intent = Intent(this,Admin_Add_Materials::class.java)
             startActivity(intent)
         }
+
+        btn_add_new_question.setOnClickListener {
+            val intent = Intent(this,Admin_Add_Questions::class.java)
+            startActivity(intent)
+        }
+
+        btn_show_question.setOnClickListener {
+            val intent = Intent(this,MainActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

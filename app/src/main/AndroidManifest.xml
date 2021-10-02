@@ -13,8 +13,8 @@
         <activity android:name=".ViewFeedback"></activity>
         <activity android:name=".Home_Screen" />
 
-        <activity android:name=".Admin_Create_Question"></activity>
-        <activity android:name=".Admin_Add_Questions" />
+        <activity android:name=".Admin_Create_Question" android:parentActivityName= ".Admin_Create_Question"/>
+        <activity android:name=".Admin_Add_Questions" android:parentActivityName= ".Admin_Add_Questions"/>
 
 
         <activity android:name=".QBuds_Categories">
