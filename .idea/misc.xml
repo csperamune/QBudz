@@ -8,13 +8,16 @@
         <entry key="..\:/Users/Dinushi/StudioProjects/QBudz/app/src/main/res/layout/activity_admin_create_question.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Dinushi/StudioProjects/QBudz/app/src/main/res/layout/activity_admin_view_materials.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/Dinushi/StudioProjects/QBudz/app/src/main/res/layout/activity_display_feed_message.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Dinushi/StudioProjects/QBudz/app/src/main/res/layout/activity_feedbackmessage.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/Dinushi/StudioProjects/QBudz/app/src/main/res/layout/activity_getfeedback.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Dinushi/StudioProjects/QBudz/app/src/main/res/layout/activity_home_screen.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/Dinushi/StudioProjects/QBudz/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Dinushi/StudioProjects/QBudz/app/src/main/res/layout/activity_user_view_material_list.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Dinushi/StudioProjects/QBudz/app/src/main/res/layout/dummy.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

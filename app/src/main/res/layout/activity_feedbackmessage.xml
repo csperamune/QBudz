@@ -2,56 +2,25 @@
 <!--TODO (STEP 5: Design the result activity layout.)-->
 <!--START-->
 <!--1. Add the trophy image to the drawable folders.-->
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center_horizontal"
-    android:padding="20dp"
-    tools:context=".FeedbackDisplayMessage">
-
-
-    <ImageView
-        android:id="@+id/iv_trophy"
-        android:layout_width="161dp"
-        android:layout_height="120.76dp"
-        android:contentDescription="image"
-        android:layout_marginTop="171dp"
-        android:src="@drawable/bg_background" />
-
-    <TextView
-        android:id="@+id/tv_feedbackText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        tools:text="Thank for your feedback" />
-
-
-    <TextView
-        android:id="@+id/tv_score"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:textColor="@android:color/secondary_text_dark"
-        android:textSize="16sp"
-        android:textAlignment="center"
-        android:textStyle="bold"
-        tools:text="Your feedback will help us improve our service."
-        android:layout_gravity="center"/>
+    android:background="@drawable/bac"
+    android:layout_height="wrap_content">
 
     <Button
         android:id="@+id/btn_finish"
-        android:layout_width="300dp"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="576dp"
         android:background="@android:color/white"
         android:text="CLOSE"
         android:textColor="@color/colorPrimary"
         android:textSize="18sp"
-        android:textStyle="bold" />
-</LinearLayout>
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
     <!--END-->
