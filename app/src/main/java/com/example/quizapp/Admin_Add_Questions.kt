@@ -2,13 +2,10 @@ package com.example.quizapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 
-class UserLogin : AppCompatActivity() {
+class Admin_Add_Questions : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_user_login)
+        setContentView(R.layout.activity_admin_add_questions)
     }
-
-    fun UserSignupPage(view: View) {}
 }

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -6,6 +7,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
+
     tools:context=".MainActivity">
 
     <androidx.cardview.widget.CardView
@@ -40,7 +42,8 @@
                 android:textColor="#7A8089"
                 android:textSize="16sp" />
 
-            <com.google.android.material.textfield.TextInputLayout
+            <Button
+                android:id="@+id/button1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Select Here">
@@ -51,7 +54,11 @@
                     android:layout_height="wrap_content"/>
 
             </com.google.android.material.textfield.TextInputLayout>
-
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:text="Select Subjec" />
 
             <Button
                android:id="@+id/btn_start"
@@ -64,6 +71,7 @@
                android:textColor="#FFF">
 
            </Button>
+
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </LinearLayout>
