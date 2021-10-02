@@ -11,13 +11,13 @@
     tools:context=".MainActivity">
 
     <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
-            android:background="#FFF"
-            app:cardCornerRadius="8dp"
-            app:cardElevation="7dp">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#FFF"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="7dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -46,31 +46,19 @@
                 android:id="@+id/button1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Select Here">
-
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"/>
-
-            </com.google.android.material.textfield.TextInputLayout>
-                android:layout_height="match_parent"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="10dp"
-                android:text="Select Subjec" />
+                android:hint="Select Here"/>
 
             <Button
-               android:id="@+id/btn_start"
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:layout_marginTop="16dp"
-               android:background="@color/colorPrimary"
-               android:text="Start"
-               android:textSize="18dp"
-               android:textColor="#FFF">
+                android:id="@+id/btn_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@color/colorPrimary"
+                android:text="Start"
+                android:textSize="18dp"
+                android:textColor="#FFF">
 
-           </Button>
+            </Button>
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>

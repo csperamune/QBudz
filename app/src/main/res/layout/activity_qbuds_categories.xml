@@ -3,7 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/background"
     android:layout_height="match_parent"
     tools:context=".Admin_Panel">
 
@@ -39,7 +38,6 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginStart="28dp"
-        android:background="@drawable/square"
         android:text="Show Question"
         android:textAlignment="center"
         android:textColor="#353333"
@@ -53,7 +51,6 @@
         android:layout_height="120dp"
         android:layout_marginTop="44dp"
         android:layout_marginEnd="28dp"
-        android:background="@drawable/square"
         android:text="Show User"
         android:textAlignment="center"
         android:textColor="#353333"
@@ -65,7 +62,6 @@
         android:id="@+id/button"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:background="@drawable/square"
         android:hapticFeedbackEnabled="false"
         android:text="Add New Question"
         android:textAlignment="center"
@@ -79,7 +75,6 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginTop="44dp"
-        android:background="@drawable/square"
         android:text="Materials"
         android:textAlignment="center"
         android:textColor="#353333"
@@ -93,7 +88,6 @@
         android:layout_height="120dp"
         android:layout_marginTop="44dp"
 
-        android:background="@drawable/square"
         android:text="Show Feedback"
         android:textAlignment="center"
         android:textColor="#353333"
