@@ -25,8 +25,8 @@ class ResultActivity : AppCompatActivity() {
         }
 
         btn_feedback.setOnClickListener{
-            startActivity(Intent(this, GetFeedback::class.java))
-            finish()
+            val intent = Intent(this@ResultActivity,GetFeedback::class.java)
+            startActivity(intent)
         }
 
 

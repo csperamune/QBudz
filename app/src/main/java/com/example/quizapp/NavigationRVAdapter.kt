@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
+import kotlinx.android.synthetic.main.row_nav_drawer.view.*
 
 class NavigationRVAdapter(private var items: ArrayList<NavigationItemModel>, private var currentPos: Int) :
     RecyclerView.Adapter<NavigationRVAdapter.NavigationItemViewHolder>() {
@@ -29,7 +30,7 @@ class NavigationRVAdapter(private var items: ArrayList<NavigationItemModel>, pri
     override fun onBindViewHolder(holder: NavigationItemViewHolder, position: Int) {
         // To highlight the selected Item, show different background color
         if (position == currentPos) {
-            holder.itemView.setBackgroundColor(ContextCompat.getColor(context, R.color.colorPrimaryDark))
+            holder.itemView.setBackgroundColor(ContextCompat.getColor(context, R.color.colorPrimary))
         } else {
             holder.itemView.setBackgroundColor(ContextCompat.getColor(context, android.R.color.transparent))
         }
