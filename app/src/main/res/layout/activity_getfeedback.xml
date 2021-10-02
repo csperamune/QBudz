@@ -37,7 +37,7 @@
         tools:layout_editor_absoluteX="30dp" />
 
     <Button
-        android:id="@+id/btn_send"
+        android:id="@+id/btn_display"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"

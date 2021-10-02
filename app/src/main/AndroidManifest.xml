@@ -9,21 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".ViewFeedback"></activity>
+        <activity android:name=".DisplayFeedMessage"></activity>
+        <activity android:name=".ViewFeedback" />
         <activity android:name=".Home_Screen" />
-
-        <activity android:name=".Admin_Create_Question"></activity>
+        <activity android:name=".Admin_Create_Question" />
         <activity android:name=".Admin_Add_Questions" />
-
         <activity android:name=".Admin_View__Material__List" />
         <activity android:name=".QBuds_Categories" />
         <activity android:name=".User_View_Materials" />
         <activity android:name=".Admin_View_Materials" />
         <activity android:name=".Admin_Add_Materials_Content" />
         <activity android:name=".Admin_Add_Materials" />
-        <activity
-            android:name=".splashActivity">
+        <activity android:name=".splashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -41,11 +38,9 @@
             android:name=".MainActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
-
         <activity
             android:name=".GetFeedback"
             android:screenOrientation="portrait" />
-
     </application>
 
 </manifest>

@@ -1,14 +1,21 @@
 package com.example.quizapp
 
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import kotlinx.android.synthetic.main.activity_getfeedback.*
 
 class GetFeedback  : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_getfeedback)
+
+        btn_display.setOnClickListener{
+            val intent = Intent(this@GetFeedback,DisplayFeedMessage::class.java)
+            startActivity(intent)
+        }
 
 //        database = FirebaseDatabase.getInstance();
 //        referance = database.getReference("Users")
