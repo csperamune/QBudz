@@ -24,32 +24,32 @@
         android:id="@+id/tv_feedbackText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="53dp"
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/tv_score"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iv_trophy"
-        app:layout_constraintVertical_bias="0.138"
         tools:text="Thank for your feedback" />
 
     <TextView
         android:id="@+id/tv_score"
         android:layout_width="300dp"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_gravity="center"
+        android:layout_marginBottom="109dp"
         android:textAlignment="center"
-        android:textColor="@android:color/secondary_text_dark"
+        android:textColor="#A1887F"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btn_finish"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_feedbackText"
-        app:layout_constraintVertical_bias="0.147"
         tools:text="Your feedback will help us improve our service." />
 
 
