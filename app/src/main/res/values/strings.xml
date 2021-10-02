@@ -13,8 +13,19 @@
     <string name="add">Add</string>
     <string name="btn_update">Update</string>
     <string name="btn_cancel">Cancel</string>
+    <string name="btn_delete">Delete</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="IT">IT</string>
+
+    <array name="subjects">
+        <item>Select Subject</item>
+        <item>Sinhala</item>
+        <item>Buddhist</item>
+        <item>Art</item>
+        <item>Science</item>
+        <item>English</item>
+        <item>Maths</item>
+    </array>
 
 </resources>
