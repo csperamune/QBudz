@@ -16,7 +16,7 @@
         android:longClickable="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/plus" />
+        app:srcCompat="@drawable/edit" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="360dp"
