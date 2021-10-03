@@ -15,7 +15,7 @@ class Admin_View_Material_List : AppCompatActivity() {
             startActivity(intent)
         }
 
-        btn_view_more.setOnClickListener {
+        btn_view_content.setOnClickListener {
             val intent = Intent(this,Admin_View_Materials::class.java)
             startActivity(intent)
         }

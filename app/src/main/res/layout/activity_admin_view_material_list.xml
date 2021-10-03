@@ -69,7 +69,7 @@
                 app:layout_constraintStart_toStartOf="@+id/linearLayout">
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/btn_more_list"
+                    android:id="@+id/btn_view_content"
                     android:layout_width="109dp"
                     android:layout_height="33dp"
                     android:layout_gravity="center"
@@ -144,7 +144,7 @@
                     android:id="@+id/textView11"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Science 01"
+                    android:text="Buddhist 01"
                     android:textSize="14sp"
                     app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -218,7 +218,6 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/btn_more_list"
                     android:layout_width="109dp"
                     android:layout_height="33dp"
                     android:layout_gravity="center"
@@ -266,7 +265,7 @@
                     android:id="@+id/textView11"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Science 02"
+                    android:text="Buddhist 02"
                     android:textSize="14sp"
                     app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -285,12 +284,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/plus" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="?attr/actionModeCloseDrawable" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
