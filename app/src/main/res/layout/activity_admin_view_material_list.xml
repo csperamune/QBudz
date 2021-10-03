@@ -218,6 +218,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/btn_view_content"
                     android:layout_width="109dp"
                     android:layout_height="33dp"
                     android:layout_gravity="center"
